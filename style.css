@@ -1,0 +1,174 @@
+
+/*---------- desktop ---------- */
+body {
+    background-color: #6C8375; 
+    font-family: 'Playfair Display', serif;
+    margin: 0; 
+    padding 0; 
+}
+
+.header {
+    background-color: white;
+    padding-top: 65px;
+    padding-bottom: 75px;
+}
+
+.headertype {
+    color: #B58022;
+    margin-left:305px; 
+}
+
+h1 {
+margin: 0; 
+
+}
+
+.sidebartype{
+    display:none;
+}
+.stanza_6 {
+    margin-bottom: 100px;
+}
+
+.poem {
+    color:white;
+    margin-left:305px;
+    font-size: 22px;
+    position: relative;
+}
+
+.attributes {
+    font-size: 15px;
+    margin-bottom: 100px;
+}
+
+.accenttype {
+    color:white;
+    font-size:525px; 
+    opacity: 0.11;
+    position: absolute;
+    bottom: 0;
+    left:-305px;
+
+
+}
+ .accenttype p{
+     margin: 0;
+
+ }
+
+/*---------- Tablets ---------- */
+@media only screen and (min-width:800px) and (max-width:1280px) {
+    body {
+        background-color: white; 
+        font-family: 'Playfair Display', serif;
+        margin: 0; 
+        padding 0; 
+    }
+    
+    .headertype {
+        color: #6C8375; 
+        position: relative; 
+        font-weight:400;
+        text-align: right;
+        margin-right: 10px;
+    }
+    
+    h1 {
+    margin: 0; 
+    }
+
+    .poem {
+        color:black;
+        margin-left: 150px;
+        font-size: 22px;
+        position: relative;
+    }
+
+    .poem_block{
+        background-color: #AFC0B6;
+        position: relative;
+    }
+
+
+    .sidebartype{
+        display:block;
+        color: #B58022;
+        font-size: 100px;
+        transform-origin: center center; 
+        transform: rotate(-90deg);
+        position:absolute;
+        top: 50px;
+        bottom: 150px;
+        z-index: 100;
+        font-style: italic;
+    }
+    
+    .accenttype {
+        display: none; 
+        font-style: italic;
+    }
+
+    .stanza_1 {
+        padding-top: 50px;
+        margin-left: 100px;
+    }
+    .stanza_2 {
+        margin-left: 100px; 
+    }
+    .stanza_3 {
+        margin-left: 100px; 
+    }
+    .stanza_4 {
+        margin-left: 100px; 
+    }
+    .stanza_5 {
+        margin-left: 100px; 
+    }
+    .stanza_6 {
+        margin-left: 100px; 
+    }
+    .attributes{
+        margin-left: 100px; 
+        padding-bottom: 50px;
+    }
+}
+/*---------- SMART PHONE ---------- */
+@media only screen and (max-width:800px) {
+    body {
+        background-color: #AFC0B6; 
+    }
+
+    .headertype {
+        position: relative;
+        color: #B58022;
+        text-align: right;
+        margin-right: 10px;
+
+    }
+
+    .accenttype {
+        display:none;
+    }
+
+    .sidebartype {
+        display: block; 
+        color: #6C8375; 
+        font-size: 50px;
+        position: absolute;
+        margin-top: -120px;
+        font-style: italic;
+    }
+
+    .poem {
+        color:black;
+        margin-left: 100px;
+        font-size: 22px;
+        position: relative;
+    }
+
+    .stanza_1 {
+        padding-top: 50px;
+    }
+}
+
